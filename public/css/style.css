@@ -1,0 +1,325 @@
+body{
+    background-color: #D9D9D9;
+    }
+.navbar-nav .active{
+    border-bottom: white solid 3px;
+    color: white;
+    }
+
+   /* Home Page */ 
+.hero-section{
+    background: url("../img/welcome bg.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: 'Inter';
+    color: white;
+    }
+  .outlined-text {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
+.btn-gray{
+    background-color: #2e302e;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    }
+
+.home-employer-section{
+    background-color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: 'Inter';
+    color: #000000;
+    text-align: top left;
+}
+.home-employer-section p {
+    font-size: 25px;
+
+}
+.btn-postajob{
+    background: #D9D9D9;
+    border-radius: 15px;
+    color: black;
+    text-transform: uppercase;
+    border: black;
+    padding: 10px 20px;
+    position: center;
+    }
+
+.home-jobseeker-section{
+    background-color: #D9D9D9;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: 'Inter';
+    color: #000000;
+    text-align: top right;
+    }
+.home-jobseeker-section p {
+    font-size: 25px;
+    }
+.btn-applyajob{
+    background: #ffffff;
+    border-radius: 15px;
+    color: black;
+    text-transform: uppercase;
+    border: black;
+    padding: 10px 20px;
+    position: center;
+    }
+
+.home-lastpage-section h1{
+    font-size: 100px;
+}
+
+
+
+   /* About Us Page */     
+   .aboutus-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f2f2f2;
+    color: #252525;
+  }
+  
+  .aboutus-container h1, h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  .aboutus-container p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .aboutus-container ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style: none;
+  }
+  
+  .aboutus-container li {
+    margin-bottom: 10px;
+  }
+  
+  .aboutus-container strong {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+
+
+/* How it works */
+.howitworks{
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+.howitworks h2, .howitworks h3 {
+  color: #252525;
+}
+
+.howitworks h3 {
+  margin-top: 0;
+}
+
+.howitworks ol {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.howitworks ol li {
+  margin-bottom: 10px;
+}
+
+.howitworks ol li h4 {
+  margin-top: 0;
+}
+
+.howitworks p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.howitworks p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.container h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.about-section hr {
+	border: none;
+	height: 2px;
+	background-color: #fff;
+	margin: 20px 0;
+}
+
+.about-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+/* Style for the navigation bar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -200px; /* hide the sidebar by default */
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    transition: all 0.3s ease-in-out; /* add transition effect */
+  }
+  
+  /* Show the sidebar when hovering over it */
+  .sidebar:hover {
+    left: 0;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollbar width */
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, .1) transparent;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: #333;
+    padding: .25rem .5rem;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    color: #222;
+    background-color: #f5f5f5;
+  }
+  
+  .sidebar a.active {
+    color: #007bff;
+  }
+  
+  /* Style for the main content area */
+  .main {
+    padding: 20px;
+  }
+  
+  .main h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .main h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .main table {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .main table th {
+    font-weight: 600;
+  }
+  
+  .main table td {
+    font-weight: 400;
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      padding-top: 112px;
+      left: 0; /* show the sidebar by default */
+    }
+  
+    .main {
+      margin-left: 200px;
+    }
+  }
+
+  .about-us-container content body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-us-container content header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-us-container content h1 {
+    margin: 0;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .about-us-container content h2 {
+    margin-top: 40px;
+  }
+  
+  .about-us-container content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-us-container content li {
+    margin-bottom: 10px;
+  }
+  
+  .about-us-container content footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
